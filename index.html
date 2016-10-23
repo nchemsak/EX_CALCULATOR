@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <meta name="author" content="Nick">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="font-family: Courier;">
+<div id="wrapper">
+<h1 class="row">Calculator</h1>
+    <div class="row">
+      <div class="col-sm-1 class"><input type="text" id="num1"></div>
+      <div class="col-sm-1 class" id="symbol"></div>
+      <div class="col-sm-1 class"><input type="text" id="num2"></div>
+    </div>
+  <form>
+    <fieldset class="row">
+      <button type="button" id="add" class="adds">Add</button>
+      <button type="button" id="subtract" class="sub">Subtract</button>
+      <button type="button" id="multiply" class="times">Multiply</button>
+      <button type="button" id="divide" class="divides">Divide</button>
+    </fieldset>
+    <fieldset>
+        <div id="output" class="row"></div>
+    </fieldset>
+  </form>
+</div>
+  <script src="calculator.js"></script>
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+  </script>
+  <script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+h1 {
+  font-size: 2.2em;
+}
+
+.class {
+  width: 50%;
+  outline: none;
+}
+
+#symbol {
+  height: 30px;
+  font-size: 1.75em;
+  margin-bottom: 1px;
+  color: tomato;
+}
+
+fieldset {
+  width: 300px;
+  margin-top: 5px;
+}
+
+#output {
+  height: 50px;
+  width: 100%;
+  font-size: 1.75em;
+  box-shadow: inset 1px 3px 93px 1px rgba(215,228,235,1);
+}
+
+input {
+  outline: none;
+  border: 1px dotted black;
+  font-size: 1.75em;
+  width: 100%;
+}
+
+.col-sm-1 {
+  margin: 0 2px;
+  padding: 0px;
+}
+
+.row {
+  margin: 10px 0;
+}
+
+body {
+  /*margin-left: 10px;*/
+  width: auto;
+  background-color: #d7e4eb;
+}
+
+#wrapper {
+  /*margin: auto;*/
+    background-color: white;
+    color: #2d1c14;
+    max-width: 320px;
+    margin: 0 auto;
+    padding-left: 10px;
+    box-shadow: 11px 21px 43px -10px rgba(0,0,0,0.75);
+}
+
+/***** BUTTONS *****/
+button {
+  width: 22%;
+  outline: none;
+  margin-top: 9px;
+  background-color: white;
+  border: 2px solid black;
+  font-size: .75em;
+}
+
+button:hover {
+  background-color: #d7e4eb;
+}
+
+button:active {
+  background-color: tomato;
+}
